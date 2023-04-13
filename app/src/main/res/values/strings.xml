@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sharedprefencesauyg</string>
+    <string name="text1">Giriş Yap</string>
+    <string name="text2">Kayıt Yap</string>
+    <string name="text3">Kaydet</string>
+    <string name="text4">Girişe Dön</string>
+    <string name="text5">Sağlıklı günler Arda Kılınçarslan</string>
+    <string name="text6">Giriş Bilgilerinizi Oluşturunuz</string>
+    <string name="text7">Hoşgeldiniz</string>
+</resources>

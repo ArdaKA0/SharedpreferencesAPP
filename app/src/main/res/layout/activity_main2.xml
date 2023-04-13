@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text6"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/et1k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:background="@drawable/edittextduzen"
+        android:padding="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/et2p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:background="@drawable/edittextduzen"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnkaydet"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text3"
+        android:background="@drawable/buttonduzen"
+        android:textColor="@color/white"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp" />
+    <Button
+        android:id="@+id/btngirisedn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text4"
+        android:background="@drawable/buttonduzen"
+        android:textColor="@color/white"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
